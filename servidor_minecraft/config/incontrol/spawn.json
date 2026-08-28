@@ -1,0 +1,38 @@
+[
+  {
+    "mob": ["minecraft:falling_block", "supplementaries:falling_ash", "minecraft:item", "minecraft:armor_stand"],
+    "maxcount": 6,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": ["enemyexpansion:meature", "enemyexpansion:equestrian", "enemyexpansion:lost_soul", "sons_of_sins:lost_soul", "alexsmobs:muskeltunge", "ars_nouveau:carbuncle", "aquaculture:catfish", "alexsmobs:cocodrilo", "alexsmobs:emu", "quark:tortoise", "quark:toretoise", "whisperwoods:moth", "sons_of_sins:betrayed_guzzler", "alexsmobs:cockroach", "alexsmobs:centipede_head", "alexsmobs:centipede_body", "alexsmobs:centipede_tail", "undead_unleashed:frenzied_knight", "undead_unleashed:shadewraith", "knightquest:eldbomb", "knightquest:knight", "mutantmonsters:mutant_creeper", "mutantmonsters:mutant_zombie", "mowziesmobs:umvuthana_follower_raptor", "takesapillage:clay_golem", "alexsmobs:rocky_roller"],
+    "maxcount": 1,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": ["enemyexpansion:lost_soul", "sons_of_sins:lost_soul"],
+    "maxcount": 1,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": ["enemyexpansion:meature", "enemyexpansion:equestrian", "enemyexpansion:lost_soul", "sons_of_sins:lost_soul", "alexsmobs:muskeltunge"],
+    "random": 0.9,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": ["minecraft:sheep", "minecraft:cow", "minecraft:pig", "minecraft:chicken", "minecraft:squid", "minecraft:glow_squid", "aquaculture:bluegill", "aquaculture:minnow", "aquaculture:perch", "aquaculture:smallmouth_bass", "aquaculture:carp", "aquaculture:gar", "aquaculture:brown_trout", "aquaculture:piranha", "aquaculture:catfish"],
+    "maxcount": 2,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:witch", "minecraft:pillager", "minecraft:zombie_villager", "minecraft:slime", "minecraft:cave_spider", "minecraft:drowned", "enemyexpansion:goblin", "enemyexpansion:faller", "enemyexpansion:crawler", "enemyexpansion:scorpion", "enemyexpansion:sprinter", "enemyexpansion:direwolf", "enemyexpansion:slugger", "enemyexpansion:spectre", "enemyexpansion:huntsman", "enemyexpansion:intruder", "enemyexpansion:vampire", "enemyexpansion:silverqueen", "enemyexpansion:troll", "enemyexpansion:betrayed_guzzler"],
+    "maxcount": 3,
+    "result": "deny",
+    "onjoin": true
+  }
+]

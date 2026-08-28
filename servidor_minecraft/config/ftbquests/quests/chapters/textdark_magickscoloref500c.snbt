@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textdark_magickscoloref500c"
+	group: "3B0CDB8395E59365"
+	icon: {
+		Count: 1b
+		id: "apotheosis:gem"
+		tag: {
+			gem: "irons_spellbooks:eldritch"
+			rarity: "ancient"
+		}
+	}
+	id: "39A12A3BBCD69D07"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"La &amagia ambiental &freside en el mundo y sus criaturas vivientes. Durante milenios, individuos han dedicado sus vidas a su estudio, separando los tipos de maná en \"escuelas\"."
+				""
+				"Escuelas como las ampliamente utilizadas de &6fuego&f, &bhielo &fy &esagrada &fson fomentadas por la &dgran ciudadela &fque supervisa los asuntos mágicos. Sin embargo, aunque no están completamente prohibidas, el uso de escuelas como la del &5ender &fes mal visto debido a la naturaleza oscura de su &9maná."
+				""
+				"Y aunque incluso esas escuelas que tienen restricciones en su uso siguen siendo ampliamente utilizadas en algunas regiones, hay dos escuelas que están completamente prohibidas."
+			]
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "cataclysm_spellbooks:void_beam"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "65993F4D40D84B74"
+			rewards: [{
+				count: 2
+				id: "47F62914A8C40E16"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Artes Oscuras"
+			tasks: [{
+				id: "56E356D0D75B3442"
+				title: "Clic para Completar"
+				type: "checkmark"
+			}]
+			title: "Magia Prohibida"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65993F4D40D84B74"]
+			description: [
+				"Una de las dos escuelas prohibidas, la &0eldritch&f, su &9maná &fse originó del &0oscuro &fmismo como un regalo para aquellos a quienes eligió para hacer su voluntad."
+				""
+				"A diferencia de otras escuelas que derivan su &9maná &fdel ambiente, un individuo es imbuido con &0maná eldritch &fal aceptar el pacto del &0oscuro&f."
+				""
+				"Para comenzar tu viaje, necesitarás encontrar fragmentos de &8conocimiento antiguo &fpara forjar un &0manuscrito eldritch&f."
+			]
+			id: "6B0FCE3DEEDB952A"
+			rewards: [{
+				count: 4
+				id: "4EAFA1E0393DF5C7"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			subtitle: "El Regalo del Oscuro"
+			tasks: [{
+				id: "083451D036F6C4CA"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			title: "Escuela Eldritch"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B0FCE3DEEDB952A"]
+			description: [
+				"Al completar el &0manuscrito &8eldritch&f, léelo para hacer un pacto con &0el oscuro &fy obtener un hechizo &0eldritch &faleatorio."
+				""
+				"Necesitarás adquirir más manuscritos para obtener más hechizos."
+			]
+			id: "35648D67DCE2EC41"
+			rewards: [{
+				count: 5
+				id: "13EC70D98FC063EB"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			subtitle: "Pacto del Oscuro"
+			tasks: [{
+				id: "2420DCC54740DADB"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35648D67DCE2EC41"]
+			description: [
+				"Aunque los hechizos &0eldritch &fson formidables por sí solos, su potencia puede mejorarse aún más con el uso de &dgemas&f."
+				""
+				"La gema del oscuro, cuando se coloca en tu equipo, aumentará el poder de tus hechizos &0eldritch&f."
+				""
+				"Se pueden encontrar en mazmorras o comprar en la &6tienda&f."
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					gem: "irons_spellbooks:eldritch"
+					rarity: "ancient"
+				}
+			}
+			id: "2EF8DE651DF12843"
+			rewards: [{
+				id: "15C33D0AE4ADE279"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "irons_spellbooks:eldritch"
+						rarity: "ancient"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "La Gema del Oscuro"
+			tasks: [{
+				id: "2DA63504C8AA0921"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			title: "Poder de Hechizo Eldritch"
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+	title: "{\"text\":\"Magias Prohibidas\",\"color\":\"#EF500C\"}"
+}

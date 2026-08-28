@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seven_deadly_sins"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: {
+				Items: [ ]
+				Size: 11
+			}
+		}
+		id: "sons_of_sins:flesh_carcass"
+		tag: {
+			Inventory: {
+				Items: [ ]
+				Size: 11
+			}
+		}
+	}
+	id: "3B93984312100331"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Con su hambre insaciable de poder, la salud y el ataque del wistiver aumentan con cada muerte."]
+			id: "6169E1E5C020E11B"
+			rewards: [
+				{
+					id: "2487C672F714AEA6"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "1FEA7FC9B21FC395"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Gula Gloriosa"
+			tasks: [{
+				entity: "sons_of_sins:wistiver"
+				icon: "sons_of_sins:ribs"
+				id: "3192D90BC1DDAD4C"
+				title: "Derrota al wistiver"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{\"text\":\"Pecado de la Gula\",\"color\":\"#E51856\"}"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			description: ["La cama andante es lenta pero da un golpe increíble y presume de defensas muy altas."]
+			id: "4829D2888CBBA822"
+			rewards: [
+				{
+					id: "7DEA42A966E0FE3A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "78D5D6DE5A14CECF"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Derrotando la Pereza"
+			tasks: [{
+				entity: "sons_of_sins:walking_bed"
+				icon: "minecraft:red_bed"
+				id: "4718136DBB8F765C"
+				title: "Derrota la cama andante"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{\"text\":\"Pecado de la Pereza\",\"color\":\"#DF1111\"}"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: ["Rápido y letal."]
+			id: "108AF03D0ADF4789"
+			rewards: [
+				{
+					id: "3F2CA403A812C350"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "1C84A8A4B30E18CB"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Purgando el Orgullo"
+			tasks: [{
+				entity: "sons_of_sins:prowler"
+				icon: "sons_of_sins:muscle"
+				id: "66405F3204381155"
+				title: "Derrota al prowler"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{\"text\":\"Pecado del Orgullo\",\"color\":\"#E2D519\"}"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: ["Más lento que sus hermanos pero igual de feroz."]
+			icon: "sons_of_sins:blazing_heart"
+			id: "6E615D01AB60DF8C"
+			rewards: [
+				{
+					id: "43F4DBE5D5D31550"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "0413D8147E7ADFCC"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Eliminando la Envidia"
+			tasks: [{
+				entity: "sons_of_sins:kelvin"
+				icon: "sons_of_sins:blazing_heart"
+				id: "45890F796AB1D8D6"
+				title: "Derrota a Kelvin"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{\"text\":\"Pecado de la Envidia\",\"color\":\"#21BA10\"}"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["La maldición prefiere volar, ya que es mejor para posar sus ojos lujuriosos sobre su presa."]
+			icon: "twilightforest:thorn_rose"
+			id: "0DD90C867DB3D242"
+			rewards: [
+				{
+					id: "081A5D1391B06C8F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "0C35B4CF7309DF4B"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Lamentos de Lujuria"
+			tasks: [{
+				entity: "sons_of_sins:curse"
+				icon: "twilightforest:thorn_rose"
+				id: "02811CA9420AF3E9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{\"text\":\"Pecado de la Lujuria\",\"color\":\"#E812E8\"}"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: ["Menos móvil pero el más robusto, también posee ataques a distancia."]
+			icon: {
+				Count: 1b
+				id: "iter_rpg:golden_scythe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "0FCF704C2011B3A9"
+			rewards: [
+				{
+					id: "6549424B1B17BD0D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "2A40AC71328D8EB8"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Mueca de la Avaricia"
+			tasks: [{
+				entity: "sons_of_sins:blud"
+				icon: {
+					Count: 1b
+					id: "iter_rpg:golden_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "34E9A26CB29FF405"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{\"text\":\"Pecado de la Avaricia\",\"color\":\"#D7921B\"}"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: ["Versátil y feroz."]
+			icon: "sons_of_sins:blood_bucket"
+			id: "3A9CFF1C4772BF49"
+			rewards: [
+				{
+					id: "3D85F93FD21EF382"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "7F0C94147FE97138"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Destrucción de la Ira"
+			tasks: [{
+				entity: "sons_of_sins:butcher"
+				icon: "sons_of_sins:blood_bucket"
+				id: "572D958D3AF8A5DD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{\"text\":\"Pecado de la Ira\",\"color\":\"#CB7C79\"}"
+			x: 10.5d
+			y: -1.0d
+		}
+	]
+	title: "{\"text\":\"Siete Pecados Capitales\",\"color\":\"#E51818\"}"
+}

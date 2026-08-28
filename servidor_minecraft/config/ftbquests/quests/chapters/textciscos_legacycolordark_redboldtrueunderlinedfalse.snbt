@@ -1,0 +1,378 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textciscos_legacycolordark_redboldtrueunderlinedfalse"
+	group: "103C318287AA2A0F"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "cisco_mod:supreme_nightfall"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "60A5389CE8B10B5A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["134D9801D13D58F5"]
+			description: [
+				"*&4Arthas&f se te acerca con una oferta.* &6Cisco &fes solo un tonto mestizo nacido de &0sangre &4contaminada&f. Mírate a ti, su preciado alumno forjado a su imagen pero atado innecesariamente por sus cadenas."
+				""
+				"¿De verdad crees que el poder de &6Cisco &falguna vez fue realmente tuyo para compartir? El verdadero poder lo guarda para sí mismo mientras te advierte que ejerzas equilibrio y moderación."
+				""
+				"Pero veo ese hambre ardiente parpadeando detrás de tu lealtad. Únete a mí y juntos derribaremos al falso &6héroe&f. No nos arrodillaremos ante los &edioses &fque jugaron con él ni nos acobardaremos ante el legado al que se aferra."
+				""
+				"Juntos reclamaremos esa preciosa chispa de divinidad que posee y la empuñaremos como mejor nos parezca."
+			]
+			id: "4BDA63A50DFBBDA5"
+			rewards: [{
+				count: 3
+				id: "6AF3FD57DCA20AD1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Donde Muere la Lealtad"
+			tasks: [{
+				id: "364EB200D442E031"
+				title: "Haz clic para completar"
+				type: "checkmark"
+			}]
+			title: "Camino de la Traición"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BDA63A50DFBBDA5"]
+			description: [
+				"Así que has elegido las sombras sobre tu supuesto salvador... bien."
+				""
+				"A pesar de sus defectos, Cisco no debe ser subestimado. Invocarlo con la intención de traicionarlo sin debilitarlo primero sería un grave error."
+				""
+				"Reúne fragmentos caídos y amatista nocturna, luego tuerce el talismán del desafío para ganar ventaja."
+			]
+			id: "06FA4049EBC45DA2"
+			rewards: [
+				{
+					count: 2
+					id: "79F258BF521C1274"
+					item: "cisco_mod:championlootbag"
+					type: "item"
+				}
+				{
+					id: "4B26B5F9B5775FEB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "El Rito de la Traición"
+			tasks: [
+				{
+					id: "148187ABDB18895A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:fell_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE09AC7CB76C38D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:fell_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "266F1661B80182EB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:nocturnal_amethyst"
+					}
+					type: "item"
+				}
+				{
+					id: "75A8B40D2220E62F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:nocturnal_amethyst"
+					}
+					type: "item"
+				}
+			]
+			title: "Hilos de la Traición"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06FA4049EBC45DA2"]
+			description: [
+				"Ha llegado el momento, pequeño traidor."
+				""
+				"El &etalismán del desafío&f, una vez una reliquia forjada en confianza y usada para tu duelo amistoso, llevará tu traición directamente al &6corazón&f de &6él&f."
+			]
+			id: "20489A4126AE5804"
+			rewards: [{
+				count: 20
+				id: "4C5CF25F315A8678"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "El Sello del Traidor"
+			tasks: [{
+				id: "1A69EEB7109AB42F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:talisman_of_betrayal"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20489A4126AE5804"]
+			description: [
+				"Invoca a tu &6viejo maestro&f, el llamado &9sabio &fque encadenaría tu verdadero poder."
+				""
+				"Vendrá voluntariamente creyendo que esto es otra prueba de tu fuerza. En ese momento sentirá que su fuerza se agota. Cuando esté frente a ti debilitado, no dudes, derrótalo y reclama su &echispa divina &fcomo propia."
+				""
+				"Invócalo. Lucha contra &6él&f. Acaba con &6él&f."
+			]
+			id: "29854A90DE3D647E"
+			rewards: [
+				{
+					count: 2
+					id: "24ACA58EF6D4ACB4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:tablet_of_descension"
+					}
+					type: "item"
+				}
+				{
+					id: "6C92AACD2361909F"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			subtitle: "La Separación Final"
+			tasks: [{
+				advancement: "cisco_mod:ashesof_allegiance"
+				criterion: ""
+				id: "3286F7A92EEDC7F4"
+				title: "Derrota a Cisco Descendido"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29854A90DE3D647E"]
+			description: [
+				"&cOcaso Supremo&f, una hoja de crepúsculo infinito que derriba enemigos cuando se empuña, protegiendo a su maestro cuando está oculta."
+				""
+				"Recuerda esto, &cOcaso &fno sirve a los cobardes. Empúñalo con valentía, traiciona su confianza, y se volverá contra ti con el tiempo."
+				""
+				"Si mantienes su filo saciado... ningún mortal o dios se interpondrá en tu camino."
+			]
+			id: "60D7A13216197BB1"
+			rewards: [{
+				count: 5
+				id: "6A67EF78710935F6"
+				item: "cisco_mod:championlootbag"
+				type: "item"
+			}]
+			subtitle: "Equilibrio Desatado"
+			tasks: [{
+				id: "6A34BA78F4CFBC8A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:supreme_nightfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Ocaso Supremo"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29854A90DE3D647E"]
+			description: [
+				"Cuanto más sangres, menos te quiebras. Cuando la ruina se acerque, conviértete en uno con el abismo, imparable, intocable."
+				""
+				"El poder del hierro y la sombra es tuyo para empuñar."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:descended_hero_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "663F82C45A362B8D"
+			rewards: [{
+				count: 10
+				id: "263ACDA4C7F12250"
+				item: "cisco_mod:championlootbag"
+				type: "item"
+			}]
+			subtitle: "Avatar del Oscuro"
+			tasks: [
+				{
+					id: "2EDF8BEAB6B0D0FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "446068D66C2F3788"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "320CA560C4E84F5F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CDA34CF7DA0FA11"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:descended_hero_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Set de Armadura Descendida"
+			x: 1.0d
+			y: 5.5d
+		}
+	]
+	title: "{\"text\":\"Cenizas de Lealtad\",\"color\":\"black\",\"bold\":true,\"underlined\":false}"
+}

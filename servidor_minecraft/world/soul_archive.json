@@ -1,0 +1,128 @@
+[
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "297f4ed3-5f7d-4c35-a3b0-d865c1e947a3",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": 1797,
+      "f_123286_": 84,
+      "f_123289_": 2155
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "07a87995-c653-412f-b6e7-32246e9fef68",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": 1660,
+      "f_123286_": 67,
+      "f_123289_": 1783
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "9ab561a3-a381-4587-b5ff-131d1244721f",
+    "ownerID": "cc1bf250-92c7-32c2-9d9e-4894430eb4d7",
+    "pos": {
+      "f_123285_": 1724,
+      "f_123286_": 81,
+      "f_123289_": 1674
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "5816d7ae-2a8a-4092-a0a4-36ba71c79d9b",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": -10,
+      "f_123286_": 102,
+      "f_123289_": -258
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "440ad7b3-778c-4e68-88c4-b6aa8edd3d0f",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": 91,
+      "f_123286_": 73,
+      "f_123289_": -306
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "e9f6941d-3295-4ff8-add1-ef53379ac257",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": 45,
+      "f_123286_": 95,
+      "f_123289_": -271
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "3ac71210-6d02-41ee-9e30-5ad3498cba6a",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": -80,
+      "f_123286_": 104,
+      "f_123289_": -104
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "0b1d7f0e-fec2-4acb-a538-47c080817aa4",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": -84,
+      "f_123286_": 69,
+      "f_123289_": 20
+    },
+    "type": 0
+  },
+  {
+    "dimension": {
+      "f_135804_": "minecraft",
+      "f_135805_": "overworld"
+    },
+    "id": "1b4c0378-8fcc-4260-9c66-ae104ef99acc",
+    "ownerID": "3dc7566d-df20-34d3-a4db-a631d4cd4f38",
+    "pos": {
+      "f_123285_": 1647,
+      "f_123286_": 67,
+      "f_123289_": 1773
+    },
+    "type": 0
+  }
+]

@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lesser_evils"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1b
+		id: "mutantmonsters:mutant_skeleton_skull"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "2FA380C2B515B7A4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Armado con un gran arco, este &7esqueleto &fmutado representa una amenaza a distancia significativa."
+				""
+				"Empujará violentamente a los enemigos que se acerquen a &4rango de combate cuerpo a cuerpo."
+			]
+			icon: {
+				Count: 1b
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "31FBA523D6A35AA4"
+			rewards: [
+				{
+					count: 3
+					id: "2DAF8180CC1B5428"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "677B2FD28F83FD33"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:skeleton_gate_large"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Francotirador Esquelético"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1b
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "572A67B5EA3E3EF9"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Eliminar al Esqueleto Mutante"
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Este &acreeper &fmutado tiene mayor movilidad y puede atacar cuerpo a cuerpo."
+				""
+				"Al recibir daño fatal se cargará y &4explotará &fviolentamente dejando atrás un huevo."
+			]
+			id: "46E426066D19DABA"
+			rewards: [
+				{
+					count: 3
+					id: "69D9C42B80884283"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "126F6B40BD21E7FD"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:creeper_gate_large"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Creeper Calamitoso"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "minecraft:creeper_head"
+				id: "019B895F794DFBF4"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Eliminar al Creeper Mutante"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Este &denderman &fmutado se puede encontrar en &5el End &fy es significativamente más amenazante que sus contrapartes menores."
+				""
+				"Tras recibir daño fatal intentará atraer y dañar a los enemigos cercanos."
+			]
+			id: "16E8B9A8E0CC70B6"
+			rewards: [
+				{
+					count: 3
+					id: "65EB24A8CD90C834"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "3DEC5E462D908BE0"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:enderman_gate_large"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Enderman Errático"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "supplementaries:enderman_head"
+				id: "3D97E4079C9D9E35"
+				title: "Eliminar al Enderman Mutante"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Eliminar al Enderman Mutado"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Esta variante mutada del &2zombi &fintentará lanzarte al aire antes de golpearte rápidamente contra el suelo."
+				""
+				"Debe ser incendiado o &aregenerará &fsu salud."
+			]
+			id: "417CD90BAD812204"
+			rewards: [
+				{
+					count: 3
+					id: "5454557E6A779714"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "14704D0E082FAAA7"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:zombie_gate_large"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Zombi Fanático"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "minecraft:zombie_head"
+				id: "70B536B5EB9631DA"
+				title: "Eliminar al Zombi Mutante"
+				type: "kill"
+				value: 3L
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: ["Este enemigo acechará cuidadosamente a su presa en la &0oscuridad &fpero evitará a aquellos en la &eluz."]
+			id: "12AB14C8240BAE26"
+			rewards: [
+				{
+					count: 2
+					id: "4B78FEDF6046AD5B"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "3793A15E2A061B4A"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:blaze_gate_large"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Acechador Sereno"
+			tasks: [{
+				entity: "whisperwoods:hidebehind"
+				icon: "whisperwoods:hand_of_fate"
+				id: "418F6D8A5A4785AC"
+				title: "Eliminar al Escondido"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eliminar al Escondido"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: ["El espíritu del &2bosque, &fcapaz de realizar devastadores ataques de &6fuego &fy convocar fuegos fatuos para que luchen por él."]
+			icon: {
+				Count: 1b
+				id: "whisperwoods:hirschgeist_skull"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "1DCCBC21DCCE397C"
+			rewards: [
+				{
+					count: 3
+					id: "0F0B2D5BED77E2E5"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "310BEAA2B5C03415"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ghast_gate_large"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Espíritu del Bosque"
+			tasks: [{
+				entity: "whisperwoods:hirschgeist"
+				icon: {
+					Count: 1b
+					id: "whisperwoods:hirschgeist_skull"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "247184EBB7C4CBDF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eliminar al Hirchgeist"
+			x: -5.0d
+			y: -7.0d
+		}
+	]
+	title: "{\"text\":\"Males Menores\",\"color\":\"#DE1278\"}"
+}

@@ -1,0 +1,396 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textfinis_dierumcolore8a736"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1b
+		id: "cisco_mod:absolute_equillibrium"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "311E2D41844A4BEA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["Intercambia tus &6fragmentos solares radiantes &fpor &egemas &1perfectas."]
+			id: "57F4F47A0E411EB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "499D09C64D542015"
+				table_id: 436462268599988983L
+				type: "choice"
+			}]
+			subtitle: "Intercambio"
+			tasks: [{
+				consume_items: true
+				id: "7FF35FA022696D3C"
+				item: "cisco_mod:radiant_sunshard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Abre la &dpuerta de recuerdos &fpara luchar contra versiones &cempoderadas &fde &6cisco &fy &4el rey caído &fpara recibir &emonedas de campeón &fy &6tablillas de ascensión."]
+			icon: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:cisco_ultra_gate"
+				}
+			}
+			id: "4117F0B665E3CA2D"
+			rewards: [
+				{
+					id: "390CB681D7AEB1D1"
+					item: "cisco_mod:divine_core"
+					type: "item"
+				}
+				{
+					id: "71F73C496349C87F"
+					item: "cisco_mod:divine_core"
+					type: "item"
+				}
+			]
+			subtitle: "Portal de Recuerdos"
+			tasks: [
+				{
+					id: "60DADA22FA0C285F"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:cisco_ultra_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61384F21EA25B25A"
+					item: "cisco_mod:tabletof_ascension"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["La &4puerta cataclísmica &fte permitirá luchar contra versiones &cempoderadas &fde los jefes &4cataclísmicos &fy obtener &6fragmentos solares radiantes."]
+			icon: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:large_cataclysm_gate"
+				}
+			}
+			id: "4288F14E88A87640"
+			rewards: [
+				{
+					id: "2827FCCE98A9E346"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "5CAD9A6B291E0071"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Puerta Cataclísmica"
+			tasks: [
+				{
+					id: "08BA2A07B9C99E93"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:large_cataclysm_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7772AAD89D8528AA"
+					item: "cisco_mod:radiant_sunshard"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["238511D8E52BB53E"]
+			description: [
+				"Es hora de &arenovar &fel &edesafío&f. &1Cuidadosamente &flee las descripciones de cada recompensa y selecciona cualquier número de ellas para comenzar tu viaje de nuevo."
+				""
+				"&aDesbloquea &fel uso de la mayoría de los &5Enigmas&f."
+				""
+				"&9Azur &faumenta el nivel global en todas las dimensiones en 150. &4(Ten cuidado en servidores ya que múltiples jugadores seleccionando esta recompensa se acumularán.)"
+				""
+				"&dVioleta &frestablece el Capítulo Deus para permitirte enfrentar todos los jefes a los niveles aumentados."
+				""
+				"&4Rojo &frestablece el capítulo Siete Pecados Capitales permitiéndote enfrentar los jefes nuevamente a niveles aumentados."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:ascended_hero_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3C1CDBC749329522"
+			rewards: [
+				{
+					command: "/autoleveling level add 150"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "56FAB134FC2045F1"
+					title: "Aumentar nivel del mundo en 150"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_violet_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "65B7C9A1856B5962"
+					title: "Restablecer Capítulo Deus"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 3B93984312100331"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:ascended_hero_rouge_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "28A470F5EE6AA58B"
+					title: "Restablecer Capítulo Siete Pecados Capitales"
+					type: "command"
+				}
+			]
+			subtitle: "Desafío Renovado"
+			tasks: [
+				{
+					advancement: "cisco_mod:regicide"
+					criterion: ""
+					id: "3CC6BF97B89DF22D"
+					title: "Tener el Avance Regicidio"
+					type: "advancement"
+				}
+				{
+					id: "26D9FA8E0423F0F9"
+					title: "Haz clic para completar."
+					type: "checkmark"
+				}
+			]
+			title: "Dificultad Ascendente"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C1CDBC749329522"]
+			description: [
+				"&4Restablece &fel capítulo deus y derrota a todos los jefes a mayor dificultad."
+				""
+				"&2Desbloquea &fel uso de &5Enigmas &cmás fuertes&f."
+				""
+				"Solo para los aventureros &emás valientes &fabsolutamente."
+			]
+			id: "10AAB70F4D035819"
+			rewards: [
+				{
+					command: "/autoleveling level add 300"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:absolute_equillibrium"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "5EF90F8D0DD4EB55"
+					title: "Aumentar nivel del mundo en 300"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2B68827CE773658D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: "minecraft:writable_book"
+					id: "7EBB838C61DC8E17"
+					title: "Restablecer el Capítulo Deus"
+					type: "command"
+				}
+			]
+			subtitle: "Desafío Divino"
+			tasks: [
+				{
+					id: "2641BEB0376682DB"
+					item: {
+						Count: 1b
+						id: "cisco_mod:absolute_equillibrium"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F80886E60B457D5"
+					title: "Haz clic para completar."
+					type: "checkmark"
+				}
+			]
+			title: "Dificultad Divina"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10AAB70F4D035819"]
+			description: [
+				"Aumenta el nivel del mundo en 500 y restablece el capítulo deus para enfrentar a los jefes una vez más. Los enemigos en nivel &d400 - 750 &fsoltarán materiales más raros como &bpolvo de gemas &fy &9sigilos de engarce&f."
+				""
+				"&fMientras que los enemigos por encima del nivel &d750 &fsoltarán objetos muy valiosos como &6cenizas ardientes &fy &emonedas de campeón&f."
+				""
+				"&aDesbloquea &fel uso de los &5Enigmas &fmás &4poderosos&f."
+			]
+			icon: {
+				Count: 1b
+				id: "cisco_mod:bjorn_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "64914C7972F93909"
+			rewards: [
+				{
+					command: "/autoleveling level add 500"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:sylvi_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "0796735DCE56B515"
+					title: "Aumentar nivel del mundo en 500"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: {
+						Count: 1b
+						id: "cisco_mod:bjorn_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "6246CE0BB0E2F0D1"
+					title: "Restablecer Capítulo Deus"
+					type: "command"
+				}
+			]
+			subtitle: "Dificultad Helheim"
+			tasks: [{
+				id: "003F11D8E5234967"
+				title: "Haz clic para completar"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&6La corona &ffue originalmente diseñada por &elos Portadores de la Ley &fcomo una herramienta para castigar a los &6dioses &fdesafiantes. Arrancaría viciosamente todos los recuerdos placenteros de la psique de la víctima y luego los incineraría en una llama púrpura. Como podrías imaginar, la exposición prolongada al efecto del dispositivo rompería incluso las mentes más resueltas."
+				""
+				"Sin embargo, algunos dioses masoquistas de alguna manera derivarían un placer retorcido de su uso, replicando posteriormente el dispositivo para su propio placer personal."
+			]
+			icon: "cisco_mod:crown_of_debilitating_desire"
+			id: "7E2618F2B06D7339"
+			rewards: [{
+				id: "6A19F8152B2EBB8D"
+				item: "cisco_mod:crown_of_debilitating_desire"
+				type: "item"
+			}]
+			subtitle: "Descenso a la Locura"
+			tasks: [{
+				id: "753B0A81E6BA8B11"
+				title: "Haz clic para completar."
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+	]
+	title: "{\"text\":\"Finis Dierum\",\"color\":\"#E8A736\"}"
+}

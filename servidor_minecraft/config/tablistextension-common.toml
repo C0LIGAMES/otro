@@ -1,0 +1,48 @@
+
+#TabListExtension配置文件
+[dimensions]
+
+	[dimensions.overworld]
+		#是否启用主世界颜色
+		enabled = false
+		#主世界颜色
+		color = "GREEN"
+
+	[dimensions.nether]
+		#是否启用下界颜色
+		enabled = false
+		#下界颜色
+		color = "DARK_RED"
+
+	[dimensions.end]
+		#是否启用末地颜色
+		enabled = false
+		#末地颜色
+		color = "DARK_PURPLE"
+
+	[dimensions.other]
+		#是否启用其他维度颜色
+		enabled = false
+		#其他维度颜色
+		color = "WHITE"
+
+[general]
+	#是否在玩家名称前显示维度前缀
+	show_prefix = false
+	#是否按维度分组显示玩家
+	group_by_dimension = false
+	#玩家信息同步间隔（tick）
+	#Range: 1 ~ 100
+	update_interval = 20
+	#是否显示玩家延迟（ping）
+	show_ping = true
+	#Tab列表顶部显示的自定义文本
+	header_text = "La §1Fin§cca §bRPG"
+	#每页显示的最大玩家数量
+	#Range: 5 ~ 100
+	max_players_per_page = 80
+	#是否启用分页功能
+	enable_pagination = true
+	#是否显示页面指示器
+	show_page_indicator = true
+
